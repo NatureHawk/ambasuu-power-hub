@@ -129,6 +129,7 @@ const Contact = () => {
                     <Input 
                       placeholder="Enter your full name"
                       className="h-12"
+                      required
                     />
                   </div>
                   <div>
@@ -138,6 +139,7 @@ const Contact = () => {
                     <Input 
                       placeholder="+91 7980427886"
                       className="h-12"
+                      required
                     />
                   </div>
                 </div>
@@ -151,6 +153,7 @@ const Contact = () => {
                       type="email"
                       placeholder="your.email@company.com"
                       className="h-12"
+                      required
                     />
                   </div>
                   <div>
@@ -168,7 +171,7 @@ const Contact = () => {
                   <label className="block text-sm font-medium text-card-foreground mb-2">
                     Service Required *
                   </label>
-                  <select className="w-full h-12 border border-input rounded-md px-3 bg-background">
+                  <select className="w-full h-12 border border-input rounded-md px-3 bg-background" required>
                     <option>Select a service</option>
                     <option>Motor Rewinding & Repair</option>
                     <option>Transformer Services</option>
@@ -186,6 +189,7 @@ const Contact = () => {
                   <Textarea 
                     placeholder="Please describe your requirements, equipment specifications, timeline, and any specific needs..."
                     className="min-h-32 resize-none"
+                    required
                   />
                 </div>
 
